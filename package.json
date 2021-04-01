@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "node main.js",
-    "publish": "nexe"
+    "pkg": "pkg main.js -o out/bifrostsign -t node12-linux-x64,node12-win,"
   },
   "author": "Branden Vennes",
   "license": "ISC",
@@ -14,6 +14,6 @@
     "brambljs": "^1.2.1"
   },
   "devDependencies": {
-    "nexe": "^4.0.0-beta.18"
+    "pkg": "^4.5.1"
   }
 }
