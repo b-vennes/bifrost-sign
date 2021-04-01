@@ -1,0 +1,19 @@
+{
+  "name": "bifrost-sign",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node main.js",
+    "publish": "nexe"
+  },
+  "author": "Branden Vennes",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^5.0.0",
+    "base-58": "0.0.1",
+    "brambljs": "^1.2.1"
+  },
+  "devDependencies": {
+    "nexe": "^4.0.0-beta.18"
+  }
+}
